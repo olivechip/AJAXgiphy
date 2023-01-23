@@ -3,11 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="app.css">
   <title>Giphy Party!</title>
 </head>
 
 <body>
-
+  <form action="submit">
+    <input type="text" id="search" placeholder="Enter a search term">
+    <button id="searchB">Search!</button>
+    <button id="removeB">Remove Images</button>
+  </form>
+  <div id="results"></div>
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.js"></script>
 <script src="app.js"></script>
